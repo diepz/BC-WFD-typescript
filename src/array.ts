@@ -46,10 +46,10 @@ console.log(x[0].substr(1)); // OK
 // console.log(x[1].substr(1));
 // Error, Property 'substr' does not exist on type 'number'.
 
-x[3] = "world";
+// x[3] = ["world", 10];
 // OK, 'string' can be assigned to 'string | number'
-x[5] = 100.25;
-console.log(x[5].toString());
+// x[5] = ["world", 100.25];
+// console.log(x[5].toString());
 // OK, 'string' and 'number' both have 'toString'
 
 // x[6] = true; // Error, 'boolean' isn't 'string | number'

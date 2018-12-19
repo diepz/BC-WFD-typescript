@@ -51,3 +51,4 @@ const user = {
 for (const key in user) {
   console.log(`${key}: ${user[key]}`);
 }
+
